@@ -1,4 +1,6 @@
+numpy
+scipy
+SimpleITK
+pyradiomics
 streamlit
 pillow
-pyradiomics
-SimpleITK
