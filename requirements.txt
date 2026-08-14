@@ -1,6 +1,6 @@
 numpy
 scipy
 SimpleITK
-pyradiomics
+pyradiomics==3.0.1
 streamlit
 pillow
