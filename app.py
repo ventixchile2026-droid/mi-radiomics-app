@@ -14,7 +14,7 @@ uploaded = st.file_uploader("Sube una imagen (jpg, png, tiff)", type=["jpg","jpe
 if uploaded:
     try:
         img = Image.open(io.BytesIO(uploaded.getvalue()))
-        st.image(img, caption="Imagen subida", use_column_width=True)
+        st.image(img, caption="Imagen subida", width="stretch")
         st.success("Imagen recibida. Aquí iría el procesamiento radiómico.")
     except Exception as e:
         st.error(f"No se pudo abrir la imagen: {e}")
